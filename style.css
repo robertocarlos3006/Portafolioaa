@@ -1,0 +1,93 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f5ff; /* Morado claro */
+  color: #333; /* Color de texto principal */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header, footer {
+  background-color: #9fc5e8; /* Celeste */
+  color: #fff; /* Color de texto en blanco para contraste */
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #fff;
+}
+
+section {
+  padding: 50px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form label, form textarea, form input[type="text"], form input[type="email"], form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form textarea {
+  height: 100px;
+}
+
+button {
+  background-color: #9fc5e8; /* Celeste */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px; /* Bordes redondeados */
+  font-size: 16px; /* Tamaño de fuente */
+}
+
+button:hover {
+  background-color: #7ba6d9; /* Cambio de color al pasar el cursor */
+}
+
+footer {
+  background-color: #9fc5e8; /* Celeste */
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
